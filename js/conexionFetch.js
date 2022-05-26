@@ -88,7 +88,7 @@ function mostrarDato (informacion){
         html=html.replace("{gradoEstudio}",gradoEstudio);
         html=html.replace("{fechaIng}",fechaIng);
         html=html.replace("{fechaTerm}",fechaTer);
-        document.getElementById('movie').innerHTML +=html;
+        document.getElementById('curriculum').innerHTML +=html;
     
 };
 
