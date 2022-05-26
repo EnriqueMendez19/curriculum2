@@ -1,6 +1,8 @@
 //SE LLAMO EL JSON "REMUME.JS" DESDE EL REPOSITORIO DE GITHUB
 let jsonUrl = 'https://raw.githubusercontent.com/EnriqueMendez19/Proyectos-Git/master/Curriculum.json';
-
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register("/service-worker.js");
+}
 
 //funcion para cargar el json.
 function cargarJson (){
